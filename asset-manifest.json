@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/WelbeX-test_task/static/css/main.20593daa.css",
+    "main.js": "/WelbeX-test_task/static/js/main.397bad82.js",
+    "index.html": "/WelbeX-test_task/index.html",
+    "main.20593daa.css.map": "/WelbeX-test_task/static/css/main.20593daa.css.map",
+    "main.397bad82.js.map": "/WelbeX-test_task/static/js/main.397bad82.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20593daa.css",
+    "static/js/main.397bad82.js"
+  ]
+}
