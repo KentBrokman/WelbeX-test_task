@@ -1,0 +1,89 @@
+.wrapper {
+    min-height: 90px;
+    width: 70%;
+
+    margin-bottom: 20px;
+
+    display: grid;
+    grid-template-columns: 79% 7% 7% 7%;
+
+    border-radius: 20px;
+    background-color: rgb(253,151,38);
+    overflow: hidden;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 400;
+
+    padding: 10px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.editInput {
+    height: 60px;
+    width: 60%;
+
+    font-size: 22px;
+
+    margin-right: 20px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+.editInput:focus {
+    border: 3px solid #555;
+}
+
+.wrapper button {
+    font-size: 40px;
+    
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+.wrapper button:hover {
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.85);
+}
+
+/* .todo {
+    
+} */
+.todoDone {
+    background-color: rgb(76,175,80);
+}
+.todoDone:hover {
+    background-color: rgb(66, 212, 71);
+}
+.todoNotDone {
+    background-color: rgb(189, 189, 189);
+}
+.todoNotDone:hover {
+    background-color: rgb(165, 164, 164);
+}
+
+
+.delete {
+    background-color: rgb(244,81,30);
+}
+.delete:hover {
+    background-color: rgb(253, 8, 8);
+}
+
+.edit {
+    background-color: rgb(129,169,216);
+}
+.edit:hover {
+    background-color: rgb(71, 142, 223);
+}

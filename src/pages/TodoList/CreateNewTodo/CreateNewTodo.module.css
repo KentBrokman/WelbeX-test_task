@@ -1,0 +1,61 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+}
+
+.inner {
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoInput {
+    height: 60px;
+    width: 60%;
+
+    font-size: 22px;
+
+    margin-right: 20px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+.todoInput:focus {
+    border: 3px solid #555;
+}
+
+.createTodoButton {
+    height: 60px;
+    width: 200px;
+
+    padding: 0 10px;
+
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    background-color: rgb(129,169,216);
+    border-radius: 4px;
+
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.createTodoButton:hover {
+    background-color: rgb(71, 142, 223);
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.85);
+}

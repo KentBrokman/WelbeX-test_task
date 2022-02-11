@@ -1,0 +1,6 @@
+.appWrapper {
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 15% 85%;
+}

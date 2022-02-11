@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.css';
+
+import {Route, Routes, Navigate} from 'react-router-dom';
+import { MainPage } from './pages/Main/Main';
+import { TodoListPage } from './pages/TodoList/TodoList';
+import { Navbar } from './components/Navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.appWrapper}>      
+      <Navbar />
+      <Routes>
+        <Route path="/main" element={<MainPage />} /> 
+        <Route path="/todolist" element={<TodoListPage />} /> 
+        <Route path="/" element={<Navigate to='/main' />} /> 
+      </Routes>
     </div>
   );
 }

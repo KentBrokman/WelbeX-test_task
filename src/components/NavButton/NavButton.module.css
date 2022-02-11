@@ -1,0 +1,36 @@
+.navButtonWrapper {
+    width: 80%;
+}
+.navButtonWrapper a {
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+    transition: color 0.1s ease-in-out;
+}
+
+.navButton {
+    height: 50px;
+
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(55, 134, 236);
+    border-radius: 10px;
+
+    transition: all 0.1s ease-in-out;
+}
+
+.navButtonWrapper:hover .navButton{
+    background-color: rgb(255,255,255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navButtonWrapper:hover a {
+    color: rgb(72,153,252);
+}
+

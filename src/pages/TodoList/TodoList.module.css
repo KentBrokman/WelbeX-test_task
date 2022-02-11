@@ -1,0 +1,14 @@
+.todoListWrapper {
+    display: grid;
+    grid-template-rows: 200px 100px 1fr;
+
+    overflow: hidden;
+}
+
+.todoList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow: auto;
+}
